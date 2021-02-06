@@ -39,10 +39,10 @@ async function checkPage(){
         if (matches1 || matches2) {
             location.reload();
         } else {
-            NewTab();
-            alert("Go to the Giant page and sign up for your vaccine!!!");
             //textMe(phn1);
             //textMe(phn2);
+            NewTab();
+            alert("Go to the Giant page and sign up for your vaccine!!!");
         }  
     }
 }
