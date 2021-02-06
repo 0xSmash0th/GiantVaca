@@ -11,7 +11,7 @@ function sleep(ms) {
 
 async function checkPage(){
     while (true) {
-        await sleep(5000)
+        await sleep(30000)
         const matches = document.documentElement.innerHTML.match(re)
         if (matches) {
             location.reload()
