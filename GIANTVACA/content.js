@@ -41,8 +41,8 @@ async function checkPage(){
         } else {
             NewTab();
             alert("Go to the Giant page and sign up for your vaccine!!!");
-            textMe(phn1);
-            textMe(phn2);
+            //textMe(phn1);
+            //textMe(phn2);
         }  
     }
 }
