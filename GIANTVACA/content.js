@@ -33,14 +33,14 @@ function sleep(ms) {
 
 async function checkPage(){
     while (true) {
-        await sleep(30000)
+        await sleep(60000)
         const matches1 = document.documentElement.innerHTML.match(re1)
         const matches2 = document.documentElement.innerHTML.match(re2)
         if (matches1 || matches2) {
-            location.reload();
+            window.location.href = 'https://giantfoodsched.rxtouch.com/rbssched/program/covid19'
         } else {
-            //textMe(phn1);
-            //textMe(phn2);
+            textMe(phn1);
+            textMe(phn2);
             NewTab();
             alert("Go to the Giant page and sign up for your vaccine!!!");
         }  

@@ -4,7 +4,7 @@
     "manifest_version": 2,
     "content_scripts" : [
         {
-            "matches": ["https://covidinfo.reportsonline.com/covidinfo/GiantFood.html*"],
+            "matches": ["https://covidinfo.reportsonline.com/covidinfo/GiantFood.html*", "*://*.rxtouch.com/*"],
             "js": ["content.js"]
         }
     ]
